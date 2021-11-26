@@ -1,0 +1,388 @@
+CUDA DEVICES: 2
+lambda is:  0.000
+
+Loading configuration information from file ../../input/sim.cfg
+
+Running a somd-freenrg calculation using files ../../input/SYSTEM.top, ../../input/SYSTEM.crd and ../../input/MORPH.vanish.pert.
+Using parameters:
+===============
+andersen == True
+barostat == True
+buffered coordinates frequency == 5000
+center solute == True
+constraint == allbonds
+crdfile == ../../input/SYSTEM.crd
+cutoff distance == 12 angstrom
+cutoff type == cutoffperiodic
+distance restraints dictionary == {(478, 5191): (3.7, 10.0, 1.0), (478, 5189): (3.1, 10.0, 1.0), (927, 5190): (3.0, 10.0, 1.0), (4916, 5193): (2.9, 10.0, 1.0)}
+energy frequency == 100
+equilibrate == False
+equilibration iterations == 5000
+hydrogen mass repartitioning factor == 4.0
+lambda array == (0.0, 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.225, 0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475, 0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725, 0.75, 0.775, 0.8, 0.825, 0.85, 0.875, 0.9, 0.925, 0.95, 0.975, 1.0)
+lambda_val == 0.0
+minimal coordinate saving == False
+minimise == True
+morphfile == ../../input/MORPH.vanish.pert
+ncycles == 60
+nmoves == 25000
+perturbed residue number == 343
+platform == CUDA
+precision == mixed
+reaction field dielectric == 78.3
+save coordinates == True
+timestep == 0.004 ps
+topfile == ../../input/SYSTEM.top
+use distance restraints == True
+===============
+### Running Single Topology Molecular Dynamics Free Energy on ishikawa ###
+###================Setting up calculation=====================###
+New run. Loading input and creating restart
+lambda is 0.0
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Create the System...
+Selecting dummy groups
+Atom( NZ : 479 )
+Atom( NZ : 479 )
+Atom( N : 928 )
+Atom( OD1 : 4917 )
+Atom( NAM : 5190 )
+Atom( NAN : 5191 )
+Atom( NAO : 5192 )
+Atom( OAA : 5194 )
+[(479, 5192, 3.7, 10.0, 1.0), (479, 5190, 3.1, 10.0, 1.0), (928, 5191, 3.0, 10.0, 1.0), (4917, 5194, 2.9, 10.0, 1.0)]
+Applying Hydrogen Mass repartition to input using a factor of 4.0 
+Creating force fields... 
+Setting up moves...
+Created a MD move that uses OpenMM for all molecules on 0 
+Saving restart
+Setting up sim file. 
+There are 56952 atoms in the group 
+###===========================================================###
+
+###=======================Minimisation========================###
+Running minimisation.
+Energy before the minimisation: -169377 kcal mol-1
+Tolerance for minimisation: 1
+Maximum number of minimisation iterations: 1000
+Energy after the minimization: -215990 kcal mol-1
+Energy minimization done.
+###===========================================================###
+
+###====================somd-freenrg run=======================###
+Starting somd-freenrg run...
+25000 moves 60 cycles, 6000 ps simulation time
+
+Cycle =  1 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  2 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  3 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  4 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  5 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  6 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  7 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  8 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  9 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  10 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  11 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  12 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  13 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  14 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  15 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  16 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  17 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  18 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  19 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  20 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  21 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  22 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  23 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  24 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  25 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  26 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  27 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  28 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  29 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  30 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  31 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  32 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  33 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  34 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  35 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  36 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  37 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  38 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  39 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  40 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  41 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  42 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  43 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  44 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  45 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  46 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  47 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  48 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  49 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  50 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  51 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  52 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  53 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  54 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  55 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  56 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  57 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  58 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  59 
+
+Backing up previous restart
+Saving new restart
+
+Cycle =  60 
+
+Backing up previous restart
+Saving new restart
+Simulation took 10901 s 
+###===========================================================###
+
+Clearing buffers...
+Starting /home/finlayclark/anaconda3/envs/biosimspace-dev/bin/somd-freenrg: number of threads equals 20
